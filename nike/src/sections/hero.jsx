@@ -29,7 +29,6 @@ const Hero = () => {
       <h1 className="mt-10
       font-palanquin text-8xl 
       max-sm:text-[72px]
-      max-sm:leading-[82]
       font-bold">
         <span className="xl:bg-white
         xl:whitespace-nowrap
@@ -65,16 +64,15 @@ const Hero = () => {
        </div>
 
       </div>
-      <div className="relative flex-1 flex justify-center items-center
+      <div className="relative flex-1 grid justify-center items-center
       xl:min-h-screen max-py-40 bg-primary bg-hero 
       bg-cover bg-center">
         <img src={bigShoeImg} alt="Shoe Collection"
          width={610}
          height={500}
-         className="object-contain relative z-10"/>
+         className="object-contain relative mx-auto"/>
         <div className="flex sm:gap-6
-        gap-4 absolute -bottom-[5%]
-        sm:left-[10%] max-sm:px-6">
+        gap-4  max-sm:px-6 justify-center ">
               {shoes.map((shoe) => (
                <div key={shoe}> 
               <ShoeCard
