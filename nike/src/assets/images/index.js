@@ -20,7 +20,9 @@ import thumbnailBackground from './thumbnail-background.svg'
 import thumbnailShoe1 from './thumbnail-shoe1.svg'
 import thumbnailShoe2 from './thumbnail-shoe2.svg'
 import thumbnailShoe3 from './thumbnail-shoe3.svg'
-
+import shinchan from './shinchan.jpg'
+import lota from './lota.webp'
+import beluga from './beluga.jpg'
 export {
     bigShoe1,
     bigShoe2,
@@ -28,7 +30,9 @@ export {
 
     customer1,
     customer2,
-
+    shinchan,
+    lota,
+    beluga,
     footerLogo,
     headerLogo,
 

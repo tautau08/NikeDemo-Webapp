@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7,thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { beluga, bigShoe1, bigShoe2, bigShoe3 ,customer1, customer2, lota, shinchan, shoe4, shoe5, shoe6, shoe7,thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -51,6 +51,7 @@ export const products = [
         price: "$230.20",
     },
    
+   
     
 ];
 
@@ -74,17 +75,24 @@ export const services = [
 
 export const reviews = [
     {
-        imgURL: customer1,
-        customerName: 'Morich Brown',
+        imgURL: beluga,
+        customerName: 'Beluga the discord Hacker',
         rating: 4.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "lol! I just hacked this website and got free shoes!"
+    },
+    
+    {
+        imgURL: shinchan,
+        customerName: 'Chota Don',
+        rating: 0.0,
+        feedback: "Apun ka life bindas with adidas! Fuck nike!"
     },
     {
-        imgURL: customer2,
+        imgURL: lota,
         customerName: 'Lota Mongeskar',
         rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
-    }
+        feedback: "NIKE should sponsor me some chappals for my next song!"
+    },
 ];
 
 
